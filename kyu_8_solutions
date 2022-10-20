@@ -20,10 +20,11 @@ MY SOLUTION:
 
 
 function countSheeps(arrayOfSheep) {
-  
+
+  let arrayLength = arrayOfSheep.length;  
   let sheepAmount = 0;
   
-  for (let i = 0; i < arrayOfSheep.length; i++) {
+  for (let i = 0; i < arrayLength; i++) {
     if (arrayOfSheep[i] === true) {
       sheepAmount +=1;
     } else {
